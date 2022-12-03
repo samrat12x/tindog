@@ -1,0 +1,151 @@
+body{
+  font-family: "Montserrat-light";
+  text-align: center;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+
+.nav-item{
+  padding-right: 2rem;
+}
+.nav-link{
+  font-size:1.2rem;
+}
+.ttt{
+  position:relative;
+}
+.tg
+{
+position: absolute;
+right:60px;
+
+/* top:45px; */
+
+}
+.colored-section
+{
+  background-color: #ea6b5a;
+color:white;
+}
+.white-section{
+background-color: white;
+color: black;;
+}
+
+#title
+{
+  text-align: left;
+  background-image: linear-gradient(to bottom right,#e31919,#490101);
+    font-family: 'Ubuntu', sans-serif;
+}
+.btnmg{
+margin:3%;
+}
+/* color when we hover over icon */
+
+.icon
+{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+  color:red;
+}
+#features
+{
+  padding: 7% 15%;
+
+position:relative;
+z-index: 1;
+background-color: white;
+}
+.fbox
+{
+
+padding:3%;
+}
+h3{
+  font-weight:bold;
+}
+#testimonials
+{
+    
+  
+
+text-align: center;   /* that even center's the image */
+color: white;  /* only effect icon and text color  */
+}
+
+.carousel-item
+{
+  padding:  7% 15%;
+}
+ h2{
+font-family:" Montserrat-Bold";
+font-weight: bold;
+}
+
+.testimonial-img
+{
+  border-radius: 100%;   /* this will make img round */
+width:20%;  /* wrt tp vp i think or parent element but it will be responisved */
+}
+#press
+{
+ 
+padding-bottom: 3%;
+}
+.press_img
+{
+  width: 15%;
+margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 5%;
+
+}
+
+.tg
+{
+  width:60%;
+   transform:rotate(15deg);
+}
+
+
+@media screen and ( max-width:1020px)
+{
+.tg{
+  text-align: center;
+  transform: rotate(0deg);
+  position:static;
+}
+
+}
+
+#cta{
+
+ 
+padding:10% 5% 10%;
+
+font-family: "Montserrat-black";
+}
+.h3cta
+{
+  margin-bottom: 5%;
+  font-size: 3rem;
+line-height: 1.5;
+}
+#footer
+{
+
+  padding:8% 3% 2%;
+}
+.f
+{
+  padding: 0.8%;
+}
